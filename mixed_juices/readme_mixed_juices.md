@@ -13,6 +13,9 @@ Lien vers l'énoncé: https://exercism.org/tracks/javascript/exercises/mixed-jui
 - Gestion du temps et des durées
 - Implémentation de fonctions avec différents paramètres
 
+# Niveau de difficulté 💪🏽
+- Easy 🌟 
+
 # Fonctions à implémenter 🛠️
 - **timeToMixJuice(juice):** Calcule le temps nécessaire pour préparer un jus donné.
 

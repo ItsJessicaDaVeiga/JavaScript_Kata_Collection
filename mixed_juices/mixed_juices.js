@@ -1,11 +1,10 @@
 /* Hello Internet ✨ , find the link to the instruction right here ⬇️
-https://exercism.org/tracks/javascript/exercises/mixed-juices*/
+https://exercism.org/tracks/javascript/exercises/mixed-juices */
 
 
 /* Task 1: Determine how long it takes to prepare a certain juice.
 param {string} name of the juice
 returns {number} time in minutes */
-
 function timeToMixJuice(name) {
     let time = 0;
     switch(name){
@@ -34,7 +33,6 @@ Calculates the number of limes that need to be cut to reach a certain supply.
 param {number} wedgesNeeded
 param {string[]} limes
 returns {number} number of limes cut */
-
 function limesToCut(wedgesNeeded, limes) {
     let nbWedge = 0;
     let nbLime = 0;
@@ -66,10 +64,7 @@ function limesToCut(wedgesNeeded, limes) {
 /* Task 3: Finish up the shift
 param {number} timeLeft
 param {string[]} orders
-returns {string[]} remaining orders after the time is up
-*/
-
-
+returns {string[]} remaining orders after the time is up */
 function remainingOrders(timeLeft, orders) { 
     do {
         timeLeft -= timeToMixJuice(orders[0])
